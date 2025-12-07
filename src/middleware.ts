@@ -14,6 +14,6 @@ export const config = {
      * - favicon.ico (favicon file)
      * - api/raidlogger (webhook endpoint - no auth needed)
      */
-    '/((?!_next/static|_next/image|favicon.ico|api/raidlogger|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
+    '/((?!_next/static|_next/image|favicon.ico|api/raidlogger/.*|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
   ],
 };
